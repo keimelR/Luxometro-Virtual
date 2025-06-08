@@ -1,3 +1,80 @@
 <resources>
-    <string name="app_name">Luxometro Movil</string>
+    <string name="app_name">Lux-Lens</string>
+    <string name="settings_name">Ajustes</string>
+    <string name="scenes_name">Escenas</string>
+    <string name="home_name">Inicio</string>
+
+    <string name="unit_lux">Lux</string>
+    <string name="unit_foot_candle">Fc</string>
+
+    <string name="init_sensor">Iniciar</string>
+    <string name="stop_sensor">Detener</string>
+
+    <string name="minimun">Minimo</string>
+    <string name="maximun">Maximo</string>
+
+    <string name="tutorial_luxometer">
+        A continuación, te explicaremos cómo hacer para medir la luz de forma correcta con el luxometro movil:\n
+        1- Primeramente, encienda el luxómetro movil.\n
+        2- Apunte el sensor de luz del equipo hacia la fuente de luz que desea medir. El sensor debe estar orientado hacia la fuente de luz.\n
+        3- Espere unos segundos para que el luxómetro se estabilice y muestre la medición en la pantalla.\n
+        Así de fácil es la toma de mediciones de luz con un luxómetro movil.\n\n
+        Nota: El sensor de luz normalmente esta ubicado en la parte frontal superior del dispositivo.
+    </string>
+
+    <string name="living_room_description">
+        Para una iluminación óptima en salas de estar, se necesita un ambiente relajado y adaptable, con niveles de luz entre 100 y 150 lux, regulables hasta 50 lux. Esto se logra combinando:\n
+        • <b>Iluminación general:</b> Luces LED de cala, lámparas centrales (colgantes o de techo) o focos.\n
+        • <b>Iluminación de tareas:</b> Focos o luces LED lineales\n
+        • <b>Iluminación ambiental:</b> Plafones LED y luces de pared antideslumbramiento\n
+        Se recomienda complementar la iluminación ambiental con lámparas portátiles (de mesa o de pie) para actividades que requieran mayor iluminación local, como la lectura.
+    </string>
+
+    <string name="dining_room_description">
+        La iluminación en comedores debe ser versátil para adaptarse a diferentes ambientes y actividades. Se recomienda:\n
+        • <b>Iluminación de fondo:</b> Un "baño" de luz en paredes o techo con tiras LED (dentro de una luz de cornisa) crea un ambiente general.\n
+        • <b>Iluminación complementaria:</b> Lámparas de mesa portátiles ofrecen efectos adicionales.\n
+        • <b>Nivel de iluminación general:</b> Alrededor de 150 lux a nivel del suelo.\n
+        <ul>
+            • <b>Flexibilidad en la mesa:\n</b>
+            <li>150-200 lux para comer.\n</li>
+            <li>400-500 lux para otras actividades (deberes, hobbies, etc.).</li>
+        </ul>
+    </string>
+
+    <string name="beedroom_description">
+        La iluminación en dormitorios debe crear un ambiente relajante y funcional, permitiendo tanto el descanso como actividades como leer o vestirse. Los puntos clave son:\n
+        • <b>Luz general indirecta:</b> Tiras LED o focos dirigidos a las paredes para evitar deslumbramientos.\n
+        • <b>Mesilla de noche:</b> Circuito independiente con luz enfocada para lectura y fácil acceso al interruptor.\n
+        • <b>Niveles de iluminación controlables:</b> Se busca flexibilidad para niveles tenues (50-100 lux a nivel del suelo) hasta un máximo de 150 lux. Se recomiendan reguladores de intensidad o sistemas de iluminación inteligentes.\n
+        • <b>Iluminación para lectura:</b> Debe proporcionar hasta 400 lux con lámparas de escritorio regulables o apliques de pared.
+    </string>
+
+    <string name="studies_and_home_offices_description">
+        La iluminación en estudios y oficinas en casa debe favorecer la concentración y la productividad, previniendo la fatiga visual. Para ello:\n
+        • <b>Iluminación de fondo difusa:</b> Evitar luces intensas que deslumbren pantallas y superficies de trabajo. Se recomiendan luces LED de techo o apliques de pared para una luz general suave.\n
+        • <b>Iluminación de trabajo:</b> Lámparas de escritorio LED.\n
+        • <b>Niveles de iluminación:</b> Entre 400 y 500 lux en el escritorio para tareas generales, y hasta 750 lux para trabajos más complejos.
+    </string>
+
+    <string name="classroom_description">
+        La iluminación ideal para un aula busca un ambiente que facilite el aprendizaje, la concentración y el bienestar, previniendo la fatiga visual. Los puntos clave son:\n
+        • <b>Iluminación general difusa y uniforme</b>: Con luminarias LED de techo para evitar sombras y contrastes bruscos.\n
+        • <b>Iluminación específica para la pizarra/pantalla:</b> Sin reflejos y con intensidad similar a las áreas de trabajo (500 lux).\n
+        • <b>Niveles de iluminación:</b> 300-500 lux para la iluminación general, 500 lux en pupitres/mesas y en la pizarra/pantalla.\n
+        • <b>Aprovechamiento controlado de la luz natural:</b> Con cortinas o persianas para evitar deslumbramientos y sobrecalentamiento.
+    </string>
+
+    <string name="library_description">
+        La buena iluminación en bibliotecas es crucial para el bienestar y la productividad de los usuarios, previniendo la fatiga. Se recomienda:\n
+        • <b>Iluminación ambiental suave y sin deslumbramiento:</b> Para un ambiente confortable.\n
+        • <b>Iluminación de acento en áreas de lectura:</b> Para mejorar las condiciones visuales en estas zonas.\n
+        • <b>Niveles de iluminación:</b> 200 lux en la sección de libros y 500 lux en las áreas de lectura.
+    </string>
+
+    <string name="title_information_sensor">Informacion del Sensor</string>
+    <string name="night_mode">Modo oscuro</string>
+    <string name="screen_options">Opciones de pantalla</string>
+
+    <string name="icon_arrow_back">Retroceder</string>
 </resources>
