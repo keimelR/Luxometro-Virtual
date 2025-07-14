@@ -15,7 +15,6 @@ fun CameraPreview(
 ) {
     val previewUseCase = remember { androidx.camera.core.Preview.Builder().build() }
 
-
     val lifecycleOwner = LocalLifecycleOwner.current
     AndroidView(
         factory = {

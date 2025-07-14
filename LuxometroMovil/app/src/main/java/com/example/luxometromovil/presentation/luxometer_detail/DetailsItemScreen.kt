@@ -114,7 +114,7 @@ fun DetailsItemLuxometerScreenPreview() {
                 fontWeight = FontWeight.SemiBold
             )
         }
-        Spacer(modifier = Modifier.padding(vertical = 24.dp))
+        Spacer(modifier = Modifier.padding(vertical = 25.dp))
 
         Text(
             text = stringResource(R.string.studies_and_home_offices_description),

@@ -68,9 +68,15 @@ dependencies {
     implementation(libs.androidx.appcompat.resources)
     implementation(libs.core)
 
-    // Room Database
+    implementation ("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation(libs.converter.gson)
+
+
+    implementation(libs.okhttp)
+
     implementation(libs.androidx.room.ktx)
     implementation(libs.litert.support.api)
+    implementation(libs.common)
     ksp(libs.androidx.room.compiler)
     implementation(libs.androidx.room.runtime)
 
@@ -82,6 +88,18 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    implementation(libs.okhttp3.okhttp)
+
+    implementation (libs.converter.gson)
+    implementation("com.google.ai.client.generativeai:generativeai:0.9.0")
+
+
+    implementation (libs.kotlinx.coroutines.android)
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android.v180)
+
+    implementation (libs.androidx.activity.ktx)
+    implementation (libs.androidx.runtime)
 
     implementation("io.coil-kt.coil3:coil-compose:3.1.0")
 
